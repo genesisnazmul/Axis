@@ -33,6 +33,7 @@
 main{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Nav Styles */
@@ -189,6 +190,48 @@ nav ul li a button{
     font-size: 18;
     color: rgba(0, 0, 0, 1);
 }
+/* footer styles */
+footer{
+    max-width: 1140px;
+    background-color:white;
+    
+    width: 100vw;
+    text-align: center;
+}
+ ul li{
+    list-style: none;
+    display: flex;
+
+    
+}
+ ul li a{
+    text-decoration: none;
+     color: #8987A1;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.last{
+    text-align: center;
+    padding-left: 455px;
+    padding-top: 104px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+.last-title{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    
+}
+.last-sub-title{
+    color:rgba(137, 135, 161, 1);
+    
+}
+
+
 
 
 
