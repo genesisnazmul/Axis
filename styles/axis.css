@@ -20,8 +20,14 @@
     border-radius: 5px;
     color: white;
     padding: 12px 36px;
-
 }
+
+.button-primary:hover{
+    background-color:darkgray;
+    color:black;
+    cursor: pointer;
+}
+
 .background{
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
     background-size: cover;
