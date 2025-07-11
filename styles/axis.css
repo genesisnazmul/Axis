@@ -128,6 +128,29 @@ nav ul li a button{
     font-size: 20px;
   
 }
+/* optional styles */
+.optional{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 150px 71px;
+    border-radius: 14px;
+}
+.optional-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.optional-sub-title{
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.optional-button{
+    margin-bottom: 20px;
+}
+.optional-image-radius{
+    border-radius: 48px;
+}
 
 
 
