@@ -138,7 +138,6 @@ nav ul li a button{
 /* optional styles */
 .optional{
     text-align: center;
-    background-color: rgba(255, 255, 255, 1);
     padding: 150px 71px;
     border-radius: 14px;
     box-shadow: rgba(0, 0, 0, 0.5);
@@ -235,6 +234,74 @@ ul{
 .last-sub-title{
     color:rgba(137, 135, 161, 1);
     
+}
+/* feedback styles */
+.feedback-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 24px;
+}
+    
+    
+.feedback-title{
+    text-align: center;
+    font-size: 32px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 20px;
+}
+.feedback2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 10px;
+}
+.align{
+    text-align: left;
+}
+.modifie-pic{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.feedback{
+    background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feedback-sub-title{
+    color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.reviewer-name{
+    font-weight: 600;
+  font-size: 14px;
+}
+.date{
+    font-size: 13px;
+  color: gray;
+}
+.star-row {
+  display: flex;
+  gap: 4px; /* space between stars */
+  margin-bottom: 10px;
+}
+
+.star-row img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
 }
 
 
