@@ -131,9 +131,10 @@ nav ul li a button{
 /* optional styles */
 .optional{
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     padding: 150px 71px;
     border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
 .optional-title{
     color: rgba(0, 0, 0, 1);
@@ -150,6 +151,43 @@ nav ul li a button{
 }
 .optional-image-radius{
     border-radius: 48px;
+}
+/* touch section */
+.touch{
+    display: flex;
+    gap: 115px;
+    margin-bottom: 116px;
+}
+.touch-right{
+    display: flex;
+    flex-direction: column;
+}
+.touch-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: rgba(0, 0, 0, 1);
+    
+}
+.area{
+    height: 60px;
+    width: 497px;
+    padding-left: 32px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.area2{
+    height: 135px;
+    width: 497px;
+    padding-left: 32px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.area3{
+    font-weight: 600;
+    font-size: 18;
+    color: rgba(0, 0, 0, 1);
 }
 
 
