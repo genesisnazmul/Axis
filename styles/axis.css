@@ -29,6 +29,11 @@
   
     
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* Nav Styles */
 nav{
@@ -77,6 +82,26 @@ nav ul li a button{
     margin-bottom: 37px;
     
 }
+/* action styles */
+.actions{
+    display: flex;
+    gap: 220px;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+.action-image-radius{
+    border-radius: 48px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-description{
+    font-size: 24px;
+    color: #252432;
+}
+
 
 
 
